@@ -20,3 +20,19 @@ main {
 h2 {
   border-bottom: 2px solid skyblue;
 }
+
+/* Naming classes should always be with small letters and a dash between different words, this is a css naming convention. This is called kebab-case. Class styling ALWAYS have priority over element styling */
+.purple-background {
+  background-color: blueviolet;
+}
+
+p {
+  background-color: navy;
+  color: white;
+  padding-block: 5px;
+}
+
+/* This p tag is defined later then the one above, therefore this one will have priority than the other p styling. */
+p {
+  background-color: red;
+}
