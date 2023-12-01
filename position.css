@@ -1,0 +1,22 @@
+article {
+  background-color: aqua;
+  padding: 10px;
+  margin-block: 5px;
+}
+
+.static {
+  right: 10px;
+}
+
+.relative {
+  position: relative;
+  top: 10px;
+  left: 60px;
+}
+
+.fixed {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  /* left: 0; */
+}
