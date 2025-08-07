@@ -11,8 +11,6 @@ article {
 
 article.static {
   background-color: aquamarine;
-
-  left: 20px; /* Nothing happens... */
 }
 
 article.relative {
@@ -23,13 +21,10 @@ article.relative {
 article.sticky {
   background-color: fuchsia;
   position: sticky;
-  top: 10px;
-  z-index: 1;
 }
 
 article.relative.stand-alone {
   background-color: darkorange;
-  left: 10px;
 }
 
 article.fixed {
@@ -46,7 +41,5 @@ article.relative.parent {
 
 article.absolute {
   background-color: chartreuse;
-
   position: absolute;
-  bottom: 90px;
 }

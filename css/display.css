@@ -1,35 +1,19 @@
 #display .block {
   background-color: red;
-
-  border: 2px solid black;
-  margin-block: 1rem;
-  padding: 1rem;
-  /* width: 500px; */
 }
 
 #display .inline {
   background-color: blue;
   color: whitesmoke;
-  /* padding-block: 1rem;
-  padding-inline: 1rem; */
-  /* margin-block: 1rem;
-  margin-inline: 1rem; */
   text-decoration: none;
 }
 
 #display .hidden {
   background-color: greenyellow;
-  /* display: none; */
   margin-block: 1rem;
 }
 
 #display .inline-block {
   background-color: darkgoldenrod;
   display: inline-block;
-
-  margin-block: 1rem;
-  margin-inline: 1rem;
-
-  padding-block: 1rem;
-  padding-inline: 1rem;
 }
