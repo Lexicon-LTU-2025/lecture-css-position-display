@@ -1,0 +1,15 @@
+.header {
+  background-color: skyblue;
+  height: 5rem;
+  width: 100%;
+  z-index: 1;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header .links {
+  display: flex;
+  gap: 1rem;
+}

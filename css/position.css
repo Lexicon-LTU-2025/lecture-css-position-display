@@ -1,0 +1,52 @@
+#position {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+article {
+  background-color: aqua;
+  padding: 0.5rem;
+}
+
+article.static {
+  background-color: aquamarine;
+
+  left: 20px; /* Nothing happens... */
+}
+
+article.relative {
+  width: 300px;
+  position: relative;
+}
+
+article.sticky {
+  background-color: fuchsia;
+  position: sticky;
+  top: 10px;
+  z-index: 1;
+}
+
+article.relative.stand-alone {
+  background-color: darkorange;
+  left: 10px;
+}
+
+article.fixed {
+  background-color: chocolate;
+
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+article.relative.parent {
+  height: 200px;
+}
+
+article.absolute {
+  background-color: chartreuse;
+
+  position: absolute;
+  bottom: 90px;
+}

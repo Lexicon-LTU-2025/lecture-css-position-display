@@ -3,26 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Css Basics</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>CSS Things</title>
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <header>
+    <header class="header g-container">
       <h1>Css Basics</h1>
-      <nav>
-        <a href="index.html">Start</a>
-        <a href="display.html">Display</a>
-        <a href="position.html">Position</a>
+      <nav class="links">
+        <a href="#display">Display</a>
+        <a href="#position">Position</a>
       </nav>
     </header>
-    <main>
-      <h2>Winter is coming!</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas exercitationem, sint hic
-        officiis doloribus earum illo laborum distinctio quisquam ducimus blanditiis quis.
-        Molestiae, possimus. Atque asperiores ipsum nemo debitis molestias!
-      </p>
-      <p class="purple-background">This is another paragraph</p>
+
+    <main class="main g-container">
+      <section id="display">
+        <h2>Display</h2>
+        <section class="block">Block element - Takes all available width</section>
+        <span class="inline">Span 1 - Inline element</span>
+        <span class="inline">Span 2 - Inline element</span>
+        <article class="hidden">This is a element that will be hidden</article>
+        <span class="inline-block">Span 1 - Inline-block element</span>
+        <span class="inline-block">Span 2 - Inline-block element</span>
+      </section>
+      <section id="position">
+        <h2>Position</h2>
+        <article class="static">Static element</article>
+        <article class="sticky">Sticky element - Becomes "fixed" when threshold is reached</article>
+        <article class="relative stand-alone">Relative element</article>
+        <article class="fixed">Fixed element - Fixed to the viewport</article>
+        <article class="relative parent">
+          Realtive Element
+          <article class="absolute">Absolute Child</article>
+        </article>
+      </section>
     </main>
   </body>
 </html>
