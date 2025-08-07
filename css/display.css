@@ -1,19 +1,31 @@
 #display .block {
   background-color: red;
+  border: 10px solid black;
+  margin-block: 1rem;
+  padding: 1rem;
+  width: 500px;
 }
 
 #display .inline {
   background-color: blue;
   color: whitesmoke;
-  text-decoration: none;
+  width: 500px; /* Ignored when inline */
+  height: 500px; /* Ignored when inline */
+  padding-inline: 1rem;
+  /* padding-block: 2rem; Invading on surrounding elements. DON'T USE */
+  border: 10px solid black; /* Border vertically will invade other elements */
 }
 
 #display .hidden {
   background-color: greenyellow;
+  display: none;
+  /* visibility: hidden; */
   margin-block: 1rem;
 }
 
 #display .inline-block {
   background-color: darkgoldenrod;
   display: inline-block;
+  width: 300px; /* Works */
+  padding: 1rem;
 }
